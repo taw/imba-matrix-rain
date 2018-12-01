@@ -1,0 +1,33 @@
+@import 'normalize-scss';
+@include normalize();
+
+.App {
+  header {
+    font-size: 64px;
+    text-align: center;
+  }
+
+  background-color: black;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  .Stream {
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+
+    .symbol {
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      position: relative;
+      font-size: 16px;
+      text-align: center;
+      color: #8f4;
+
+      &.first {
+        color: #dfa;
+      }
+    }
+  }
+}
