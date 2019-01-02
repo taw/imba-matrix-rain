@@ -1,6 +1,6 @@
 # imba-matrix-rain
 
-Matrix Rain in Imba.
+Matrix Rain in Imba. [You can see in in action here](https://taw.github.io/imba-matrix-rain).
 
 ## Install dependencies
 
