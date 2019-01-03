@@ -1,15 +1,16 @@
 @import 'normalize-scss';
 @include normalize();
 
-.App {
-  header {
-    font-size: 64px;
-    text-align: center;
-  }
 
+body {
+  overflow: hidden;
+}
+
+.App {
   background-color: black;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 
   .Stream {
     position: absolute;
