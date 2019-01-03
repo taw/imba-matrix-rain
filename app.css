@@ -402,13 +402,14 @@ template {
 [hidden] {
   display: none; }
 
+body {
+  overflow: hidden; }
+
 .App {
   background-color: black;
-  min-height: 100vh;
-  min-width: 100vw; }
-  .App header {
-    font-size: 64px;
-    text-align: center; }
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; }
   .App .Stream {
     position: absolute;
     display: flex;
